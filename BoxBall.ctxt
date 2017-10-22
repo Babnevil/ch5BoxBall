@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BoxBall
+comment0.text=\r\n\ A\ sphere\ that\ will\ represent\ a\ ball\ randomly\ bouncing\ about\ a\ drawn\ box.\r\n\ It\ expects\ input\ for\ the\ number\ of\ ball\ objects\ to\ be\ created,\ and\ the\ size\ of\ the\ box.\r\n\ \r\n\ @author\ Matthew\ Schilling\r\n\ @version\ 10.23.2017\r\n
+comment1.params=leftBarrier\ topBarrier\ rightBarrier\ bottomBarrier\ workingCanvas
+comment1.target=BoxBall(int,\ int,\ int,\ int,\ Canvas)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BoxBall\r\n\ Random\ values\ will\ assign\ most\ attributes\r\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\r\n\ Draw\ this\ ball\ at\ its\ current\ position\ onto\ the\ canvas.\r\n
+comment3.params=
+comment3.target=void\ erase()
+comment3.text=\r\n\ Erase\ this\ ball\ at\ its\ current\ position.\r\n
+comment4.params=
+comment4.target=void\ move()
+comment4.text=\r\n\ Move\ this\ ball\ according\ to\ its\ position\ and\ speed\ and\ redraw.\r\n\ If\ a\ wall\ is\ encountered,\ the\ ball\ will\ "bounce",\ and\ reverse\ direction\r\n
+numComments=5
