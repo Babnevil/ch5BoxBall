@@ -81,12 +81,13 @@ public class BallDemo
             balls.add(ball);
             run -= 1;
         }
+        // loop through all the balls in the collection
         for (BoxBall ball : balls) {
             ball.draw();          
         }
         while (1>0) {
         for (BoxBall ball :balls) {
-            myCanvas.wait(1);       //used a shorter wait time to smooth animation of larger numbers
+            myCanvas.wait(5);       //used a shorter wait time to smooth animation of larger numbers
             ball.move();
             myCanvas.setForegroundColor(Color.BLACK);
             myCanvas.drawLine(leftWall, bottomWall, rightWall, bottomWall);
