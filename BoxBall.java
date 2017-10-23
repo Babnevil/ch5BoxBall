@@ -43,7 +43,7 @@ public class BoxBall
         yPosition = roll.nextInt((bottomBarrier - topBarrier));
         
         // get a random color for the ball, ensuring to avoid being too light.
-        Color randColor = new Color(roll.nextInt(200), roll.nextInt(200), roll.nextInt(200));
+        Color randColor = new Color((roll.nextInt(200) + 55), (roll.nextInt(200) + 55), (roll.nextInt(200) + 55));
         color = randColor;
         diameter = 12;     
         ySpeed = roll.nextInt(7) + 1;
